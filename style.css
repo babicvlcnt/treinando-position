@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria;
+}
+.title{
+    background-color: rgb(62, 62, 126);
+    width: 16vw;
+    position: relative;
+    left: 5vw;
+    top: 1.5vh;
+}
+h1 {
+    padding-left: 1vw;
+    font-size: 1.3em;
+    color: #ffffff;
+}
+header {
+    background-color:rgb(207, 183, 255);
+    width:100vw;
+    height: 100%;
+}
+main {
+    background-color:burlywood;
+}
+.conteiner-paragraph {
+    background-color: rgb(62, 62, 126);
+    width: 20vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 2em;
+    position: relative;
+    top: 3vh;
+    left: 4vw;
+}
+p {
+    color: #ffffff;
+}
+.moon-light {
+    background-color: rgba(255, 255, 255, 0.671);
+    width: 10vw;
+    height: 30vh;
+    border-radius: 50%;
+    position: relative;
+    left: 80vw;
+}
+.moon-shadow {
+    background-color: burlywood;
+    width: 10vw;
+    height: 30vh;
+    border-radius: 50%;
+    position: relative;
+    left: 75vw;
+    top: -30vh;
+}
+.all-stars {
+    position: relative;
+    left: -60vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.square-1 {
+    background-color: yellow;
+    width: 1.2vw;
+    height: 3vh;
+    position: relative;
+    left: 70vw;
+    bottom: 40vh;
+}
+.square-2 {
+    background-color: yellow;
+    width: 1.2vw;
+    height: 3vh;
+    position: relative;
+    left: 70vw;
+    bottom: 43vh;
+    transform: rotate(45deg);
+}
+.flower {
+    position: relative;
+    bottom: 100vh;
+}
+.miolo {
+    background-color: rgba(255, 81, 0, 0.74);
+    width: 2vw;
+    height: 6vh;
+    border-radius: 50%;
+    position: relative;
+    left: 65vw;
+    bottom: 15vh;
+}
+.petal-1 {
+    background-color: pink;
+    width: 1vw;
+    height: 8vh;
+    border-radius:30%;
+    position: relative;
+    left: 65.5vw;
+    bottom: 29vh;
+}
+.petal-2 {
+    background-color: pink;
+    width: 1vw;
+    height: 8vh;
+    border-radius:30%;
+    position: relative;
+    left: 63.5vw;
+    bottom: 35vh;
+    transform: rotate(140deg);
+}
+.petal-3 {
+    background-color: pink;
+    width: 1vw;
+    height: 8vh;
+    border-radius:30%;
+    position: relative;
+    left: 62.7vw;
+    bottom: 38vh;
+    transform: rotate(90deg);
+}
+.petal-4 {
+    background-color: pink;
+    width: 1vw;
+    height: 8vh;
+    border-radius:30%;
+    position: relative;
+    left: 63.5vw;
+    bottom: 40.8vh;
+    transform: rotate(44deg);
+}
+.petal-5 {
+    background-color: pink;
+    width: 1vw;
+    height: 8vh;
+    border-radius:30%;
+    position: relative;
+    left: 65.5vw;
+    bottom: 47vh;
+}
+.petal-6 {
+    background-color: pink;
+    width: 1vw;
+    height: 8vh;
+    border-radius:30%;
+    position: relative;
+    left: 67.5vw;
+    bottom: 56.7vh;
+    transform: rotate(135deg);
+}
+.petal-7 {
+    background-color: pink;
+    width: 1vw;
+    height: 8vh;
+    border-radius:30%;
+    position: relative;
+    left: 68.3vw;
+    bottom: 70vh;
+    transform: rotate(90deg);
+}
+.petal-8 {
+    background-color: pink;
+    width: 1vw;
+    height: 8vh;
+    border-radius:30%;
+    position: relative;
+    left: 67.7vw;
+    bottom: 82.6vh;
+    transform: rotate(51deg);
+}
+.sertanejo {
+    position: relative;
+    left: 18vw;
+    top: 50vh;
+}
+.face {
+    background-color: rgba(48, 8, 8, 0.801);
+    width: 10vw;
+    height: 24vh;
+    border-radius: 50%;
+    position: relative;
+    left: 20vw;
+    bottom: 90vh;
+}
+.eyes {
+    position: absolute;
+    top: 3vh;
+}
+.eye-1 {
+    background-color: #ffffff;
+    width:  2vw;
+    height: 2vh;
+    border-radius: 80%;
+    position: absolute;
+    left: 6vw;
+    top: 6vh;
+}
+.eye-2 {
+    background-color: #ffffff;
+    width:  2vw;
+    height: 2vh;
+    border-radius: 80%;
+    position: absolute;
+    left: 2vw;
+    top: 6vh;
+}
+.pupil-1 {
+    background-color: #000000;
+    width: 1vw;
+    height: 1.8vh;
+    border-radius: 50%;
+    position: absolute;
+    left: 0.5vw;
+    bottom: 0.03vh;
+}
+.pupil-2 {
+    background-color: #000000;
+    width: 1vw;
+    height: 1.8vh;
+    border-radius: 50%;
+    position: absolute;
+    left: 0.5vw;
+    bottom: 0.03vh;
+}
+.right {
+    background-color: rgba(48, 8, 8, 0.801);
+    width: 0.5vw;
+    height: 1vh;
+    border-radius: 50%;
+    border: 0.001em solid #000000;
+    position: absolute;
+    left: 5vw;
+    top: 13.5vh;
+}
+.left {
+    background-color: rgba(48, 8, 8, 0.801);
+    width: 0.5vw;
+    height: 1vh;
+    border-radius: 50%;
+    border: 0.001em solid #000000;
+    position: absolute;
+    left: 4.5vw;
+    top: 13.5vh;
+}
+.mounth {
+    background-color: brown;
+    width: 3vw;
+    height: 2vh;
+    border-end-end-radius: 90%;
+    border-end-start-radius: 90%;
+    position: absolute;
+    top: 18vh;
+    left: 3.5vw;
+}
+.cactus {
+    position: relative;
+    bottom: 100vh;
+}
+.stalk-center {
+    background-color: green;
+    width: 8vw;
+    height: 55vh;
+    border-top-left-radius: 35%;
+    border-top-right-radius: 35%;
+    position: relative;
+    left: 80vw;
+    top: 40vh;
+}
+.arm-right-1 {
+    background-color: green;
+    width: 3vw;
+    height: 4vh;
+    border-radius: 30%;
+    position: relative;
+    left: 87.5vw;
+    bottom: -1vh;
+}
+.arm-right-2 {
+    background-color: green;
+    width: 2vw;
+    height: 10vh;
+    border-radius: 30%;
+    position: relative;
+    left: 89vw;
+    bottom: 9vh;
+}
+.arm-left-1 {
+    background-color: green;
+    width: 6vw;
+    height: 10vh;
+    border-radius: 30%;
+    position: relative;
+    left: 76vw;
+}
+.arm-left-2 {
+    background-color: green;
+    width: 4vw;
+    height: 20vh;
+    border-radius: 35%;
+    position: relative;
+    left: 75vw;
+    bottom: 20vh;
+}
+.circule-1 {
+    background-color: red;
+    width: 10vw;
+    height: 12vh;
+    border-radius: 50%;
+    transform: rotate(72deg);
+}
+.circule-2 {
+    background-color: red;
+    width: 10vw;
+    height: 12vh;
+    border-radius: 50%;
+    position: relative;
+    left: 3vw;
+    bottom: 11.5vh;
+    transform: rotate(298deg);
+}
+footer {
+    background-color:rgb(207, 183, 255);
+    width: 100vw;
+    height: 3vh;
+}
+h6 {
+    background-color: rgb(62, 62, 126);
+    width: 22vw;
+    height: 2vh;
+    position: relative;
+    left: 4vw;
+    bottom: 1vh;
+    color: #ffffff;
+}
